@@ -8,7 +8,9 @@ before_install:
   - composer self-update
   - cd src
   - git clone https://github.com/llaull/AppBundleX.git
+  - git clone https://github.com/llaull/domotikBundle.git
   - mv  -v AppBundleX/* AppBundle/
+  - mv  -v domotikBundle/* Domotique/
   - cd ../
   - mysql -e 'create database test;'
   - mysql -e 'create database symfony;'
