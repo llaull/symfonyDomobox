@@ -1,0 +1,19 @@
+app_bundle_to_do:
+    resource: "@AppBundleToDoBundle/Resources/config/routing.yml"
+    prefix:   /todo
+
+app:
+    resource: "@FrondOfficeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+back_office_homepage:
+    resource: "@BackOfficeBundle/Resources/config/routing.yml"
+    prefix:   /admin
+
+domotique_domobox:
+    resource: "@DomotiqueDomoboxBundle/Resources/config/routing.yml"
+    prefix:   /
+
+domotique_reseau:
+    resource: "@DomotiqueReseauBundle/Resources/config/routing.yml"
+    prefix:   /
