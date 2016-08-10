@@ -25,6 +25,6 @@ before_script:
 script:
   - php vendor/phpunit/phpunit/phpunit --coverage-clover=coverage.clover
 
-after_script:
-  - wget https://scrutinizer-ci.com/ocular.phar
-  - php ocular.phar code-coverage:upload --access-token="mevmfmUrHgsfMY7wUjHcZjPXRHttuOoHU" --format=php-clover coverage.clover
+#after_script:
+#  - wget https://scrutinizer-ci.com/ocular.phar
+#  - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
