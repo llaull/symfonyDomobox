@@ -1,9 +1,16 @@
+# WYSIWYG
+elfinder:
+     resource: "@FMElfinderBundle/Resources/config/routing.yml"
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
 app_bundle_to_do:
     resource: "@AppBundleToDoBundle/Resources/config/routing.yml"
     prefix:   /todo
 
 app:
-    resource: "@FrondOfficeBundle/Resources/config/routing.yml"
+    resource: "@DomotiqueDomoboxBundle/Resources/config/routing.yml"
     prefix:   /
 
 back_office_homepage:
@@ -17,3 +24,4 @@ domotique_domobox:
 domotique_reseau:
     resource: "@DomotiqueReseauBundle/Resources/config/routing.yml"
     prefix:   /
+
